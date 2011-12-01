@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB6A6361488383D00728338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB6A6351488383D00728338 /* UIKit.framework */; };
+		EBB6A6381488383D00728338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB6A6371488383D00728338 /* Foundation.framework */; };
+		EBB6A63A1488383D00728338 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB6A6391488383D00728338 /* CoreGraphics.framework */; };
+		EBB6A6401488383D00728338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBB6A63E1488383D00728338 /* InfoPlist.strings */; };
+		EBB6A6421488383D00728338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB6A6411488383D00728338 /* main.m */; };
+		EBB6A6461488383D00728338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB6A6451488383D00728338 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBB6A6311488383D00728338 /* NearbyPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB6A6351488383D00728338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBB6A6371488383D00728338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBB6A6391488383D00728338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBB6A63D1488383D00728338 /* NearbyPictures-Info.plist */ = {isa = PBXFileReference; path = "NearbyPictures-Info.plist"; sourceTree = "<group>"; };
+		EBB6A63F1488383D00728338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBB6A6411488383D00728338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBB6A6431488383D00728338 /* NearbyPictures-Prefix.pch */ = {isa = PBXFileReference; path = "NearbyPictures-Prefix.pch"; sourceTree = "<group>"; };
+		EBB6A6441488383D00728338 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBB6A6451488383D00728338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB6A62E1488383D00728338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB6A6361488383D00728338 /* UIKit.framework in Frameworks */,
+				EBB6A6381488383D00728338 /* Foundation.framework in Frameworks */,
+				EBB6A63A1488383D00728338 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB6A6261488383D00728338 = {
+			isa = PBXGroup;
+			children = (
+				EBB6A63B1488383D00728338 /* NearbyPictures */,
+				EBB6A6341488383D00728338 /* Frameworks */,
+				EBB6A6321488383D00728338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB6A6321488383D00728338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6A6311488383D00728338 /* NearbyPictures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB6A6341488383D00728338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6A6351488383D00728338 /* UIKit.framework */,
+				EBB6A6371488383D00728338 /* Foundation.framework */,
+				EBB6A6391488383D00728338 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBB6A63B1488383D00728338 /* NearbyPictures */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6A6441488383D00728338 /* AppDelegate.h */,
+				EBB6A6451488383D00728338 /* AppDelegate.m */,
+				EBB6A63C1488383D00728338 /* Supporting Files */,
+			);
+			path = NearbyPictures;
+			sourceTree = "<group>";
+		};
+		EBB6A63C1488383D00728338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6A63D1488383D00728338 /* NearbyPictures-Info.plist */,
+				EBB6A63E1488383D00728338 /* InfoPlist.strings */,
+				EBB6A6411488383D00728338 /* main.m */,
+				EBB6A6431488383D00728338 /* NearbyPictures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB6A6301488383D00728338 /* NearbyPictures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB6A6491488383D00728338 /* Build configuration list for PBXNativeTarget "NearbyPictures" */;
+			buildPhases = (
+				EBB6A62D1488383D00728338 /* Sources */,
+				EBB6A62E1488383D00728338 /* Frameworks */,
+				EBB6A62F1488383D00728338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyPictures;
+			productName = NearbyPictures;
+			productReference = EBB6A6311488383D00728338 /* NearbyPictures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB6A6281488383D00728338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Kapps;
+			};
+			buildConfigurationList = EBB6A62B1488383D00728338 /* Build configuration list for PBXProject "NearbyPictures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBB6A6261488383D00728338;
+			productRefGroup = EBB6A6321488383D00728338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB6A6301488383D00728338 /* NearbyPictures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB6A62F1488383D00728338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB6A6401488383D00728338 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB6A62D1488383D00728338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB6A6421488383D00728338 /* main.m in Sources */,
+				EBB6A6461488383D00728338 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBB6A63E1488383D00728338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB6A63F1488383D00728338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB6A6471488383D00728338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB6A6481488383D00728338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB6A64A1488383D00728338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NearbyPictures/NearbyPictures-Prefix.pch";
+				INFOPLIST_FILE = "NearbyPictures/NearbyPictures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBB6A64B1488383D00728338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NearbyPictures/NearbyPictures-Prefix.pch";
+				INFOPLIST_FILE = "NearbyPictures/NearbyPictures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB6A62B1488383D00728338 /* Build configuration list for PBXProject "NearbyPictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB6A6471488383D00728338 /* Debug */,
+				EBB6A6481488383D00728338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB6A6491488383D00728338 /* Build configuration list for PBXNativeTarget "NearbyPictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB6A64A1488383D00728338 /* Debug */,
+				EBB6A64B1488383D00728338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB6A6281488383D00728338 /* Project object */;
+}
